@@ -14,7 +14,7 @@ int poll_device(const unsigned int mem_addr);
 // memory mapped location of switch
 const unsigned int SWITCH_ADDR = 0xABCDEF00;
 
-// current debounced switch state, assumed active LOW
+// current debounced switch state, assumed LOW to begin with 
 int cur_state = 0;
 
 // debounce delay in ms
